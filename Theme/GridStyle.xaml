@@ -1,0 +1,14 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:Theme">
+    
+    <SolidColorBrush x:Key="GridBackColor" Color="#A000"/>
+    <Style TargetType="Grid" x:Key="GridStyle">
+        <Setter Property="Background" Value="{StaticResource GridBackColor}"/>
+    </Style>
+    <Style TargetType="Window" x:Key="WindowStyle">
+        <Setter Property="MinWidth" Value="400"/>
+        <Setter Property="MinHeight" Value="600"/>
+    </Style>
+
+</ResourceDictionary>
